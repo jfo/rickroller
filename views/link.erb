@@ -1,0 +1,23 @@
+<HTML>
+  <HEAD>
+
+    <script type="text/JavaScript">
+
+      redirectTime = "5000";
+      redirectURL = "http://www.youtube.com/watch?v=dQw4w9WgXcQ";
+
+      function timedRedirect() {
+        setTimeout("location.href = redirectURL;",redirectTime);
+      };
+
+      timedRedirect();
+
+    </script>
+  </HEAD>
+
+  <FRAMESET>
+    <FRAME src="<%= @l %>">
+  </FRAMESET>
+
+</HTML>
+
