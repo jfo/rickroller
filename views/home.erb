@@ -1,7 +1,12 @@
 <h1>rickast.ly</h1>
 
 <form>
-  <input type="text" name="link">
+Link:  <input type="text" name="l">
+<input type="submit" value="Submit">
 </form>
 
-<a href="/l?l=<%= @astlied %>">localhost:9393/l?l=<%= @astlied %></a>
+<% if !params[:l].nil?  %>
+
+<%= "<a href=\"/l?l=#{@astlied}\">54.186.136.235:3000/l?l=#{ @astlied }</a>" %>
+
+<% end %>
