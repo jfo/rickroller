@@ -1,6 +1,7 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <title>Bootstrap 101 Template</title>
+    <title>ast.ly</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link href="css/stylesheet.css" rel="stylesheet" media="screen">
@@ -8,21 +9,20 @@
 
   <body>
 
-    <h1>ast.ly</h1>
+    <div class="title">ast.ly</div>
 
-    <form>
-    Link:  <input type="text" name="l">
-    <input type="submit" value="Submit">
-    </form>
+    <div class="form">
+      <form>
+      Link:  <input type="text" name="l">
+      <input type="submit" value="Submit">
+      </form>
+    </div>
 
     <% if !params[:l].nil?  %>
 
-    <%= "<a href=\"/l?l=#{@astlied}\">54.186.136.235:3000/l?l=#{ @astlied }</a>" %>
+      <%= "<a href=\"/l?l=#{@astlied}\">54.186.136.235:3000/l?l=#{ @astlied }</a>" %>
 
     <% end %>
 
-
-    <script src="http://code.jquery.com/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>

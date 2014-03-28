@@ -4,22 +4,17 @@ require 'net/http'
 require 'open-uri'
 
 get("/") do
-
-
-  derp = "#{params[:link].hash.to_s.slice(-6..-1)}"
+  derp = "#{params[:l].hash.to_s.slice(-6..-1)}"
   @astlied = derp
-  @notastlied = "#{params[:link]}"
+  @notastlied = "#{params[:l]}"
 
   Redis.new.set @astlied, @notastlied
   erb(:home)
-
 end
 
 get("/l") do
-
   @l = Redis.new.get params[:l]
   erb(:link)
-
 end
 
 get("/check") do
