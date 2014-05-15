@@ -1,0 +1,140 @@
+[ 2014-03-28 18:13:34.1870 3266/7f6b6da33740 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'ubuntu', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS43d201OWIvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'ubuntu', 'default_python' => 'python', 'default_ruby' => '/home/ubuntu/.rvm/gems/ruby-2.1.1/wrappers/ruby', 'default_user' => 'ubuntu', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.7wm59b/locations.ini', 'passenger_version' => '4.0.40', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.40', 'web_server_pid' => '3265', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-03-28 18:13:34.1991 3269/7f8bdee7b740 agents/HelperAgent/Main.cpp:643 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.3265/generation-0/request
+[ 2014-03-28 18:13:34.2119 3274/7f02f2c26740 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.3265/generation-0/logging
+[ 2014-03-28 18:13:34.2167 3266/7f6b6da33740 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 3301 stdout: 
+[ 2014-03-28 18:13:37.0378 3269/7f8bded84700 Pool2/SmartSpawner.h:301 ]: Preloader for /home/ubuntu/rickroller started on PID 3301, listening on unix:/tmp/passenger.1.0.3265/generation-0/backends/preloader.3301
+App 3401 stdout: 
+App 3301 stderr: 127.0.0.1 - - [28/Mar/2014 18:13:37] "HEAD / " 200 454 0.0106
+App 3301 stderr: 184.75.37.82 - - [28/Mar/2014 18:13:52] "GET / " 200 454 0.0056
+App 3301 stderr: 184.75.37.82 - - [28/Mar/2014 18:14:06] "GET /?l=http%3A%2F%2Frecipes.sinatrarb.com%2Fp%2Fdeployment%2Fapache_with_passenger " 200 524 0.0043
+App 3301 stderr: 184.75.37.82 - - [28/Mar/2014 18:14:07] "GET /l?l=077767 " 200 425 0.0056
+[ 2014-03-28 18:15:52.7476 3482/7fb4fea8d740 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'ubuntu', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS5uNmFpbzUvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'ubuntu', 'default_python' => 'python', 'default_ruby' => '/home/ubuntu/.rvm/gems/ruby-2.1.1/wrappers/ruby', 'default_user' => 'ubuntu', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.n6aio5/locations.ini', 'passenger_version' => '4.0.40', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.40', 'web_server_pid' => '3481', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-03-28 18:15:52.7597 3485/7f70380d6740 agents/HelperAgent/Main.cpp:643 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.3481/generation-0/request
+[ 2014-03-28 18:15:52.7725 3490/7f1c749f4740 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.3481/generation-0/logging
+[ 2014-03-28 18:15:52.7786 3482/7fb4fea8d740 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 3517 stdout: 
+[ 2014-03-28 18:15:55.5980 3485/7f7037fdf700 Pool2/SmartSpawner.h:301 ]: Preloader for /home/ubuntu/rickroller started on PID 3517, listening on unix:/tmp/passenger.1.0.3481/generation-0/backends/preloader.3517
+App 3617 stdout: 
+App 3517 stderr: 127.0.0.1 - - [28/Mar/2014 18:15:55] "HEAD / " 200 454 0.0104
+[ 2014-03-28 18:18:30.0056 3668/7f19ee194740 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'ubuntu', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS5kMTUycGcvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'ubuntu', 'default_python' => 'python', 'default_ruby' => '/home/ubuntu/.rvm/gems/ruby-2.1.1/wrappers/ruby', 'default_user' => 'ubuntu', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.d152pg/locations.ini', 'passenger_version' => '4.0.40', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.40', 'web_server_pid' => '3667', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-03-28 18:18:30.0179 3671/7fba53655740 agents/HelperAgent/Main.cpp:643 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.3667/generation-0/request
+[ 2014-03-28 18:18:30.0306 3676/7fee02226740 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.3667/generation-0/logging
+[ 2014-03-28 18:18:30.0355 3668/7f19ee194740 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 3703 stdout: 
+[ 2014-03-28 18:18:32.8506 3671/7fba5355e700 Pool2/SmartSpawner.h:301 ]: Preloader for /home/ubuntu/rickroller started on PID 3703, listening on unix:/tmp/passenger.1.0.3667/generation-0/backends/preloader.3703
+App 3803 stdout: 
+App 3703 stderr: 127.0.0.1 - - [28/Mar/2014 18:18:32] "HEAD / " 200 454 0.0099
+App 3703 stderr: 184.75.37.82 - - [28/Mar/2014 18:18:37] "GET /?l=http%3A%2F%2Frecipes.sinatrarb.com%2Fp%2Fdeployment%2Fapache_with_passenger " 200 524 0.0057
+App 3703 stderr: 184.75.37.82 - - [28/Mar/2014 18:18:45] "GET /?l=http%3A%2F%2Frecipes.sinatrarb.com%2Fp%2Fdeployment%2Fapache_with_passeng " 200 524 0.0042
+App 3703 stderr: 184.75.37.82 - - [28/Mar/2014 18:18:48] "GET /?l=http%3A%2F%2Frecipes.sinatrarb.com%2Fp%2Fdeployment%2F " 200 524 0.0041
+App 3703 stderr: 184.75.37.82 - - [28/Mar/2014 18:18:51] "GET /l?l=058275 " 200 404 0.0037
+App 3703 stderr: 184.75.37.82 - - [28/Mar/2014 18:19:04] "GET /?l=http%3A%2F%2Fwww.slate.com%2Fblogs%2Fweigel%2F2014%2F03%2F28%2Fstephen_colbert_versus_the_hashtag_activists.html " 200 524 0.0057
+App 3703 stderr: 184.75.37.82 - - [28/Mar/2014 18:19:05] "GET /l?l=806159 " 200 456 0.0039
+App 3703 stderr: 74.212.183.186 - - [28/Mar/2014 18:50:14] "GET /?l=http%3A%2F%2Fwww.slate.com%2Fblogs%2Fweigel%2F2014%2F03%2F28%2Fstephen_colbert_versus_the_hashtag_activists.html " 200 524 0.0040
+App 3703 stderr: 74.212.183.186 - - [28/Mar/2014 18:50:18] "GET / " 200 454 0.0039
+App 3703 stderr: 74.212.183.186 - - [28/Mar/2014 19:00:28] "GET / " 200 454 0.0037
+App 3703 stderr: 74.212.183.186 - - [28/Mar/2014 19:00:30] "GET / " 200 454 0.0039
+App 3703 stderr: 74.212.183.186 - - [28/Mar/2014 19:00:32] "GET / " 200 454 0.0038
+App 3703 stderr: 74.212.183.186 - - [28/Mar/2014 19:00:32] "GET /favicon.ico " 404 447 0.0015
+App 3703 stderr: 74.212.183.186 - - [28/Mar/2014 19:00:48] "GET /?l=http%3A%2F%2Frecipes.sinatrarb.com%2Fp%2Fdeployment%2Fapache_with_passenger " 200 524 0.0040
+App 3703 stderr: 74.212.183.186 - - [28/Mar/2014 19:00:49] "GET /l?l=792391 " 200 425 0.0040
+App 3703 stderr: 74.212.183.186 - - [28/Mar/2014 19:01:19] "GET / " 200 454 0.0038
+App 3703 stderr: 74.212.183.186 - - [28/Mar/2014 19:01:20] "GET / " 200 454 0.0040
+App 3703 stderr: 74.212.183.186 - - [28/Mar/2014 19:01:21] "GET / " 200 454 0.0055
+App 3703 stderr: 74.212.183.186 - - [28/Mar/2014 19:01:21] "GET /favicon.ico " 404 447 0.0016
+App 3703 stderr: 74.212.183.186 - - [28/Mar/2014 19:01:29] "GET / " 200 454 0.0038
+App 3703 stderr: 74.212.183.186 - - [28/Mar/2014 19:01:30] "GET / " 200 454 0.0044
+App 3703 stderr: 74.212.183.186 - - [28/Mar/2014 19:01:42] "GET / " 200 454 0.0038
+App 3703 stderr: 74.212.183.186 - - [28/Mar/2014 19:01:42] "GET /favicon.ico " 404 453 0.0011
+[ 2014-03-28 19:10:11.6797 5563/7fa59bc34740 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'ubuntu', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xeXhvOGl1L3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'ubuntu', 'default_python' => 'python', 'default_ruby' => '/home/ubuntu/.rvm/gems/ruby-2.1.1/wrappers/ruby', 'default_user' => 'ubuntu', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.1yxo8iu/locations.ini', 'passenger_version' => '4.0.40', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.40', 'web_server_pid' => '5562', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-03-28 19:10:11.7842 5566/7fbb4820e740 agents/HelperAgent/Main.cpp:643 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.5562/generation-0/request
+[ 2014-03-28 19:10:11.8515 5571/7f43f0d81780 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.5562/generation-0/logging
+[ 2014-03-28 19:10:11.8587 5563/7fa59bc34740 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 5598 stdout: 
+[ 2014-03-28 19:10:14.6863 5566/7fbb48117700 Pool2/SmartSpawner.h:301 ]: Preloader for /home/ubuntu/rickroller started on PID 5598, listening on unix:/tmp/passenger.1.0.5562/generation-0/backends/preloader.5598
+App 5698 stdout: 
+App 5598 stderr: 127.0.0.1 - - [28/Mar/2014 19:10:14] "HEAD / " 200 454 0.0107
+[ 2014-03-28 19:11:13.9967 6089/7fd28cb3e740 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'root', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xM25mbGVlL3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'root', 'default_python' => 'python', 'default_ruby' => '/usr/bin/ruby1.9.1', 'default_user' => 'root', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.13nflee/locations.ini', 'passenger_version' => '4.0.40', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.40', 'web_server_pid' => '6088', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '0', 'web_server_worker_uid' => '0' }
+[ 2014-03-28 19:11:14.0094 6092/7fd6d49ec740 agents/HelperAgent/Main.cpp:643 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.6088/generation-0/request
+[ 2014-03-28 19:11:14.0274 6097/7f6a3b005780 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.6088/generation-0/logging
+[ 2014-03-28 19:11:14.0328 6089/7fd28cb3e740 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 6126 stderr: stdin: is not a tty
+App 6126 stdout: 
+App 6126 stdout: 
+[ 2014-03-28 19:11:16.4332 6092/7fd6d48f5700 Pool2/Implementation.cpp:883 ]: Could not spawn process for group /home/ubuntu/rickroller#default: An error occured while starting up the preloader.
+     in 'void Passenger::ApplicationPool2::SmartSpawner::handleErrorResponse(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:455)
+     in 'std::string Passenger::ApplicationPool2::SmartSpawner::negotiatePreloaderStartup(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:566)
+     in 'void Passenger::ApplicationPool2::SmartSpawner::startPreloader()' (SmartSpawner.h:206)
+     in 'virtual Passenger::ApplicationPool2::ProcessPtr Passenger::ApplicationPool2::SmartSpawner::spawn(const Passenger::ApplicationPool2::Options&)' (SmartSpawner.h:752)
+     in 'void Passenger::ApplicationPool2::Group::spawnThreadRealMain(const SpawnerPtr&, const Passenger::ApplicationPool2::Options&, unsigned int)' (Implementation.cpp:804)
+
+[ 2014-03-28 19:11:16.4343 6092/7fd6d1d83700 agents/HelperAgent/RequestHandler.h:2210 ]: [Client 20] Cannot checkout session.
+Error page:
+cannot load such file -- sinatra (LoadError)
+  /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+  /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+  config.ru:2:in `block in <main>'
+  /usr/lib/ruby/vendor_ruby/rack/builder.rb:55:in `instance_eval'
+  /usr/lib/ruby/vendor_ruby/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:112:in `eval'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:112:in `preload_app'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:158:in `<module:App>'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:29:in `<module:PhusionPassenger>'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:28:in `<main>'
+
+App 6145 stderr: stdin: is not a tty
+App 6145 stdout: 
+App 6145 stdout: 
+[ 2014-03-28 19:11:22.5363 6092/7fd6d48f5700 Pool2/Implementation.cpp:883 ]: Could not spawn process for group /home/ubuntu/rickroller#default: An error occured while starting up the preloader.
+     in 'void Passenger::ApplicationPool2::SmartSpawner::handleErrorResponse(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:455)
+     in 'std::string Passenger::ApplicationPool2::SmartSpawner::negotiatePreloaderStartup(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:566)
+     in 'void Passenger::ApplicationPool2::SmartSpawner::startPreloader()' (SmartSpawner.h:206)
+     in 'virtual Passenger::ApplicationPool2::ProcessPtr Passenger::ApplicationPool2::SmartSpawner::spawn(const Passenger::ApplicationPool2::Options&)' (SmartSpawner.h:752)
+     in 'void Passenger::ApplicationPool2::Group::spawnThreadRealMain(const SpawnerPtr&, const Passenger::ApplicationPool2::Options&, unsigned int)' (Implementation.cpp:804)
+
+[ 2014-03-28 19:11:22.5375 6092/7fd6d1d83700 agents/HelperAgent/RequestHandler.h:2210 ]: [Client 20] Cannot checkout session.
+Error page:
+cannot load such file -- sinatra (LoadError)
+  /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+  /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+  config.ru:2:in `block in <main>'
+  /usr/lib/ruby/vendor_ruby/rack/builder.rb:55:in `instance_eval'
+  /usr/lib/ruby/vendor_ruby/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:112:in `eval'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:112:in `preload_app'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:158:in `<module:App>'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:29:in `<module:PhusionPassenger>'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:28:in `<main>'
+
+[ 2014-03-28 19:16:22.1585 6222/7fe487967740 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'ubuntu', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xMGVhcnRhL3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'ubuntu', 'default_python' => 'python', 'default_ruby' => '/home/ubuntu/.rvm/gems/ruby-2.1.1/wrappers/ruby', 'default_user' => 'ubuntu', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.10earta/locations.ini', 'passenger_version' => '4.0.40', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.40', 'web_server_pid' => '6221', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-03-28 19:16:22.1711 6225/7f022fc98740 agents/HelperAgent/Main.cpp:643 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.6221/generation-0/request
+[ 2014-03-28 19:16:22.1893 6230/7f9dd1805780 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.6221/generation-0/logging
+[ 2014-03-28 19:16:22.1949 6222/7fe487967740 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 6257 stdout: 
+[ 2014-03-28 19:16:25.0488 6225/7f022fba1700 Pool2/SmartSpawner.h:301 ]: Preloader for /home/ubuntu/rickroller started on PID 6257, listening on unix:/tmp/passenger.1.0.6221/generation-0/backends/preloader.6257
+App 6357 stdout: 
+App 6257 stderr: 127.0.0.1 - - [28/Mar/2014 19:16:25] "HEAD / " 200 454 0.0097
+[ 2014-03-28 19:22:23.5396 6466/7fba0ebf9740 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'ubuntu', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4zOWFjMTAvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'ubuntu', 'default_python' => 'python', 'default_ruby' => '/home/ubuntu/.rvm/gems/ruby-2.1.1/wrappers/ruby', 'default_user' => 'ubuntu', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.39ac10/locations.ini', 'passenger_version' => '4.0.40', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.40', 'web_server_pid' => '6465', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-03-28 19:22:23.5515 6469/7f8a6a57c740 agents/HelperAgent/Main.cpp:643 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.6465/generation-0/request
+[ 2014-03-28 19:22:23.5697 6474/7fabc1c78780 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.6465/generation-0/logging
+[ 2014-03-28 19:22:23.5750 6466/7fba0ebf9740 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 6501 stdout: 
+[ 2014-03-28 19:22:26.4174 6469/7f8a6a485700 Pool2/SmartSpawner.h:301 ]: Preloader for /home/ubuntu/rickroller started on PID 6501, listening on unix:/tmp/passenger.1.0.6465/generation-0/backends/preloader.6501
+App 6601 stdout: 
+App 6501 stderr: 127.0.0.1 - - [28/Mar/2014 19:22:26] "HEAD / " 200 454 0.0098
+App 6501 stderr: 74.212.183.186 - - [28/Mar/2014 19:22:28] "GET / " 200 454 0.0056
+App 6501 stderr: 74.212.183.186 - - [28/Mar/2014 19:22:30] "GET / " 200 454 0.0041
+App 6501 stderr: 74.212.183.186 - - [28/Mar/2014 19:22:57] "GET / " 200 454 0.0042
+[ 2014-03-28 19:23:02.4465 6633/7fe405cf8740 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'ubuntu', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xdnUwZzgvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'ubuntu', 'default_python' => 'python', 'default_ruby' => '/home/ubuntu/.rvm/gems/ruby-2.1.1/wrappers/ruby', 'default_user' => 'ubuntu', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.1vu0g8/locations.ini', 'passenger_version' => '4.0.40', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.40', 'web_server_pid' => '6632', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-03-28 19:23:02.4578 6636/7fc1b2dba740 agents/HelperAgent/Main.cpp:643 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.6632/generation-0/request
+[ 2014-03-28 19:23:02.4750 6641/7f485f9c7780 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.6632/generation-0/logging
+[ 2014-03-28 19:23:02.4803 6633/7fe405cf8740 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 6670 stdout: 
+[ 2014-03-28 19:23:05.3550 6636/7fc1b2cc3700 Pool2/SmartSpawner.h:301 ]: Preloader for /home/ubuntu/rickroller started on PID 6670, listening on unix:/tmp/passenger.1.0.6632/generation-0/backends/preloader.6670
+App 6780 stdout: 
+App 6670 stderr: 127.0.0.1 - - [28/Mar/2014 19:23:05] "HEAD / " 200 454 0.0098
